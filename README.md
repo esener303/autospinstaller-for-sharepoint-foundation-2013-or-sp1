@@ -1,11 +1,11 @@
 # Autospinstaller for sharepoint foundation 2013 or sp1 version
 
-Guide
+# Guide
 AutoSPInstaller is a PowerShell based tool which automates the deployment of SharePoint Foundation 2013. It has the ability to granularly configure most aspects of the farm and includes some interesting features such as: centralized farm deployment, granular database naming, XML configuration and more. 
 
 The goal of AutoSPInstaller Online is to simplify this process. It will assist you with all of the configuration including some of the more complicated configurations such as adding additional Web Applications or Site Collections. Furthermore, there is a large amount of code just to make sure that all of the data is valid. 
 
-How to:
+# How to:
 Create the following domain accounts (They can be named anything):
 SP_Farm (Farm Account)
 SP_CacheSuperUser (Object Caching Account)
@@ -55,7 +55,7 @@ AutoSPInstallerLaunch.bat (Drag and Drop the XML configuration into this file to
 AutoSPInstallerMain.ps1
 Please Note: You can keep both SharePoint versions binaries in the directories. The XML specifies which version will be installed.
 
-Configuration
+# Configuration
 At this point we can begin configuring AutoSPInstaller using AutoSPInstaller Online
 Please Note: The site has only been tested with the latest versions of each browser, Chrome, FireFox, IE11 and Safari.
 Browse back to the Home page, then select either "Load Default Template" or "Load from my XML" if you already have an existing configuration
@@ -64,7 +64,7 @@ To Save the Configuration
 Browse to the "Review & Download" Section and copy all of the text and save it to your machine as .xml (For example FarmA.xml)
 Please Note: Spaces in the file name are not supported!
 
-Installation
+# Installation
 Copy the SP directory (which we set up above) to all of the SharePoint Servers
 Optionally, the installation can be ran from a File Share
 Make sure that the logged on user has Local Admin on all the SharePoint Servers and SQL Permissions dbcreate and securityadmin
@@ -72,9 +72,9 @@ Browse to the AutoSPInstaller dir ie D:\Temp\SP\AutoSPInstaller
 On each SharePoint Server (One at the time):
 Drag the new XML file ie FarmA.xml into the AutoSPInstaller.bat
 
-Please Note: If you double click on AutoSPInstaller.bat, it will use the AutoSPInstallerInput.xml config file by default
-AutoSPInstaller will now run, it will create a file on the Desktop which will contain the output of the PowerShell window and any errors
+# Please Note: If you double click on AutoSPInstaller.bat, it will use the AutoSPInstallerInput.xml config file by default
+# AutoSPInstaller will now run, it will create a file on the Desktop which will contain the output of the PowerShell window and any errors
 
-If you have any questions please leave a comment.
+# If you have any questions please leave a comment.
 
-Enjoy!
+# Enjoy!
