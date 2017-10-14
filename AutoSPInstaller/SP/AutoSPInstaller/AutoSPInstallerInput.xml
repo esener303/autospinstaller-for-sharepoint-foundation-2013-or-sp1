@@ -34,7 +34,7 @@
             <UseSSL>true</UseSSL>
         </CentralAdmin>
         <Database>
-            <DBServer>SQLSHPBPSTEST</DBServer>
+            <DBServer>SQLALIASNAME</DBServer>
             <DBAlias Create="true">
                 <DBInstance>SQLSERVERINSTANCE</DBInstance>
                 <DBPort></DBPort>
