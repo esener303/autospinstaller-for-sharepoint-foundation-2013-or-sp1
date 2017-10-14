@@ -1,4 +1,4 @@
-# Autospinstaller for sharepoint foundation 2013 or sp1 version
+# Autospinstaller for SharePoint Foundation 2013 or SP1 Version
 
 # Guide
 AutoSPInstaller is a PowerShell based tool which automates the deployment of SharePoint Foundation 2013. It has the ability to granularly configure most aspects of the farm and includes some interesting features such as: centralized farm deployment, granular database naming, XML configuration and more. 
@@ -72,9 +72,9 @@ Browse to the AutoSPInstaller dir ie D:\Temp\SP\AutoSPInstaller
 On each SharePoint Server (One at the time):
 Drag the new XML file ie FarmA.xml into the AutoSPInstaller.bat
 
-# Please Note: If you double click on AutoSPInstaller.bat, it will use the AutoSPInstallerInput.xml config file by default
-# AutoSPInstaller will now run, it will create a file on the Desktop which will contain the output of the PowerShell window and any errors
+Please Note: If you double click on AutoSPInstaller.bat, it will use the AutoSPInstallerInput.xml config file by default
+AutoSPInstaller will now run, it will create a file on the Desktop which will contain the output of the PowerShell window and any errors
 
-# If you have any questions please leave a comment.
+If you have any questions please leave a comment.
 
-# Enjoy!
+Enjoy!
