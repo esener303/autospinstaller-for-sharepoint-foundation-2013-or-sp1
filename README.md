@@ -1,7 +1,7 @@
 # Autospinstaller for sharepoint foundation 2013 or sp1 version
 
 Guide
-AutoSPInstaller is a PowerShell based tool which automates the deployment of SharePoint 2010 and 2013. It has the ability to granularly configure most aspects of the farm and includes some interesting features such as: centralized farm deployment, granular database naming, XML configuration and more. 
+AutoSPInstaller is a PowerShell based tool which automates the deployment of SharePoint Foundation 2013. It has the ability to granularly configure most aspects of the farm and includes some interesting features such as: centralized farm deployment, granular database naming, XML configuration and more. 
 
 The goal of AutoSPInstaller Online is to simplify this process. It will assist you with all of the configuration including some of the more complicated configurations such as adding additional Web Applications or Site Collections. Furthermore, there is a large amount of code just to make sure that all of the data is valid. 
 
